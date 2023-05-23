@@ -19,7 +19,7 @@ const CardKeunggulan: React.FC<CardKeunggulanProps> = ({
         />
       </div>
       <h4 className="text-lg font-semibold text-center">{title}</h4>
-      <p className="font-base text-gray-400 text-center">{descriptions}</p>
+      <p className="font-normal text-gray-400 text-center">{descriptions}</p>
     </div>
   );
 };

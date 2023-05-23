@@ -7,6 +7,7 @@ import Pengiriman from "./components/Pengiriman";
 import DownloadUs from "./components/DownloadUs";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar/Navbar";
+import Testimonial from "./components/Testimonial";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Resi />
       <Keunggulan />
       <Pengiriman />
+      <Testimonial />
       <Footer />
     </main>
   );

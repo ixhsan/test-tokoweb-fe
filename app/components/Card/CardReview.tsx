@@ -1,43 +1,40 @@
 "use client";
-import starsIcon from "../../../public/icons/stars.svg";
+
+import Rating from "../Rating/Rating";
 
 interface CardReviewProps {
   name: string;
-  address: string;
   comment: string;
-  isSelect: boolean;
+  imageName: string;
+  rating: number;
 }
 
 const CardReview: React.FC<CardReviewProps> = ({
   name,
-  address,
   comment,
-  isSelect,
+  imageName,
+  rating,
 }) => {
   return (
     <div
-      className={`border ${
-        isSelect ? "border-red-500" : "border-gray-300"
-      } rounded-lg p-5 w-96 h-52`}
+      className={`border mx-4 border-gray-300 rounded-3xl p-5 w-80 h-56 sm:w-96 sm:h-52 box-border`}
     >
-      <div className="flex flex-row justify-between items-center">
-        <div className="flex flex-row space-x-5">
+      <div className="flex flex-row justify-between items-center ">
+        <div className="flex flex-col space-y-5 ">
           <img
-            src="https://images.pexels.com/photos/8573621/pexels-photo-8573621.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-            className="w-10 h-10 rounded-full"
-            alt="test"
+            src={`/testimonial/${imageName}.svg`}
+            className="w-10 h-10 rounded-sm"
+            alt={imageName}
           />
           <div>
-            <div>{name}</div>
-            <div>{address}</div>
+            <h5 className="text-lg font-semibold">{name}</h5>
           </div>
         </div>
-        <div className="flex flex-row items-center  space-x-2">
-          <div>4,5</div>
-          <img src={starsIcon} alt={name} className="w-3 h-3" />
+        <div className="self-start">
+          <Rating rating={rating} />
         </div>
       </div>
-      <div className="mt-5">{comment}</div>
+      <div className="mt-2">{comment}</div>
     </div>
   );
 };
