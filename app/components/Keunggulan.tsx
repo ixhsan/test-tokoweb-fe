@@ -27,7 +27,7 @@ const Keunggulan = () => {
       <div className="container max-w-7xl mx-auto">
         <div className="flex flex-col w-full">
           <div className="px-6 py-14 flex flex-col justify-center items-center">
-            <h1 className="text-3xl text-center font-semibold text-black mb-4">
+            <h1 className="text-3xl text-center font-semibold text-black my-6">
               Keunggulan kami
             </h1>
             <h5 className="font-normal text-gray-400 text-center max-w-md">

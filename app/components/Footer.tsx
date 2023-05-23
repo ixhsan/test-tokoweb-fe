@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <section id="footer">
       <div className="container max-w-7xl mx-auto p-10">
-        <div className="flex flex-wrap md:flex-nowrap gap-4 md:flex-col">
+        <div className="flex flex-wrap md:flex-nowrap gap-4">
           <div className="flex flex-row justify-left gap-4 sm:gap-10 md:gap-8 p-4 md:order-last w-full md:w-1/2">
             <MenuBantuan />
             <InformasiKontak />
