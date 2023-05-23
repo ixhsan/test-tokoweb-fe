@@ -30,7 +30,7 @@ const Keunggulan = () => {
             <h1 className="text-3xl text-center font-semibold text-black mb-4">
               Keunggulan kami
             </h1>
-            <h5 className="font-medium text-gray-400 text-center max-w-md">
+            <h5 className="font-normal text-gray-400 text-center max-w-md">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
               perferendis quo nesciunt. Ducimus eveniet tempora blanditiis natus
               saepe aliquid dolor.
