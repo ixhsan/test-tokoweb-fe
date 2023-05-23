@@ -11,11 +11,6 @@ const Hero = () => {
               className="
                 
                 self-center 
-                sm:bg-red-400 
-                md:bg-yellow-400 
-                lg:bg-green-400
-                xl:bg-blue-400 
-                2xl:bg-purple-400
                 p-8
             "
             >
