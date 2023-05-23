@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="container max-w-7xl mx-auto">
         <div className="w-full">
           <div className="flex flex-row justify-start items-center p-8 box-border">
-            <div className="w-1/2 md:w-2/6 flex flex-row justify-start items-center">
+            <div className="w-full md:w-2/6 flex flex-row justify-start items-center">
               <h4 className="text-4xl text-primary">Toko Ikan</h4>
             </div>
             <div className="w-1/2 md:w-3/4 flex flex-row justify-end items-center">

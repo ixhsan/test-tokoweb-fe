@@ -11,7 +11,7 @@ const CardPengiriman: React.FC<CardPengirimanProps> = (props) => {
     <div className="flex flex-col md:flex-row">
       <div
         className={`flex flex-col md:flex-row">
-      <div className="w-full md:w-1/2 flex flex-col justify-center items-center ${
+      <div className="w-full md:w-1/2 flex flex-col justify-center items-center outline-dashed p-4 ${
         id % 2 === 1 ? `md:order-first` : `md:order-last`
       }`}
       >

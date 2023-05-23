@@ -10,12 +10,12 @@ const Resi = () => {
             <p className="text-white text-md text-justify">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum repudiandae officia voluptatibus alias exercitationem 
             </p>
-            <form className="flex flex-row flex-wrap md:flex-nowrap gap-4 w-full">
+            <form className="flex flex-row flex-wrap md:flex-nowrap gap-4 w-full outline-dashed">
               <input
                 type="text"
                 placeholder="Lacak Pengiriman"
                 name="resi"
-                className="flex-1 px-4 py-4 text-gray-400 rounded-lg text-sm"
+                className="flex-1 px-4 py-4 text-gray-400 rounded-lg text-sm min-w-[20vw]"
               />
               <button
                 type="submit"

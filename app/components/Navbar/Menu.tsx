@@ -40,7 +40,8 @@ const Menu = () => {
             absolute
             rounded-xl
             shadow-md
-            w-[40vw]
+            w-[60vw]
+            sm:w-[50vw]
             md:w-3/4
             bg-white
             overflow-hidden
