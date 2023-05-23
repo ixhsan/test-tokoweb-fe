@@ -10,7 +10,7 @@ const Resi = () => {
             <p className="text-white text-md text-justify">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum repudiandae officia voluptatibus alias exercitationem 
             </p>
-            <form className="flex flex-row flex-wrap md:flex-nowrap gap-4 w-full outline-dashed">
+            <form className="flex flex-row flex-wrap md:flex-nowrap gap-4 w-full ">
               <input
                 type="text"
                 placeholder="Lacak Pengiriman"
